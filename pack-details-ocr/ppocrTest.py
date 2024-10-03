@@ -5,7 +5,7 @@ from PIL import Image
 ocr = PaddleOCR(use_angle_cls=True, lang='en')  # Use the desired language
 
 # Load image
-img_path = 'data\OCR\groceries\groceries\IMG_3719.JPG'
+img_path = 'data\OCR\groceries\groceries\IMG_3809.JPG'
 img = Image.open(img_path)
 
 # Perform OCR using PPOCR
